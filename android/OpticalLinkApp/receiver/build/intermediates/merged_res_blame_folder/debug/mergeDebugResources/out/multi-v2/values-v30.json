@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.automotivesystemsconsulting.opticallink.receiver-mergeDebugResources-44:/values-v30/values-v30.xml",
+            "map": [
+                {
+                    "source": "/Users/igorprilepov/.gradle/caches/9.6.0/transforms/7245499f4aa8b6c7c99bf27c7da00867/transformed/material3/res/values-v30/values-v30.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "72",
+                        "endOffsets": "123"
+                    }
+                }
+            ]
+        }
+    ]
+}

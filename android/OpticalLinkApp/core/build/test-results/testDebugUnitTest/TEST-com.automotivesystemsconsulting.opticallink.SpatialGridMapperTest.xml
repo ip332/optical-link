@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-10-19T15:22:46.077Z" hostname="Igors-MacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="symbol index headers encode index 00, 01, and 10 correctly" classname="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" time="0.034"/>
+  <testcase name="asymmetric corner anchors match specification A0=WHITE, A1=BLACK, A2=BLACK, A3=WHITE" classname="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" time="0.0"/>
+  <testcase name="sync toggle cell alternates between 0 and 1" classname="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" time="0.0"/>
+  <testcase name="mapFrameToSpatialSymbols produces exactly 3 spatial frames of 64 cells" classname="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" time="0.0"/>
+  <testcase name="invalid frame length throws IllegalArgumentException" classname="com.automotivesystemsconsulting.opticallink.SpatialGridMapperTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-19T15:22:46.117Z" hostname="Igors-MacBook-Pro.local" time="0.037">
+  <properties/>
+  <testcase name="assembler ignores duplicate symbols and requires complete 0-1-2 sequence" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.013"/>
+  <testcase name="detectFromYPlane handles stride padding and buffer bounds safely" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.006"/>
+  <testcase name="spatial symbol decoder extracts correct bits with 180 degree rotation when upside down" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.001"/>
+  <testcase name="detectFromYPlane handles non-square dimensions and all four camera rotations" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.013"/>
+  <testcase name="validator rejects corrupted bits and invalid CRC" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.001"/>
+  <testcase name="encoder to receiver round-trip succeeds for all 3 spatial symbols" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.002"/>
+  <testcase name="spatial symbol decoder correctly extracts symbol indices 0, 1, and 2" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.0"/>
+  <testcase name="spatial detector correctly rotates 180 degrees when upside down" classname="com.automotivesystemsconsulting.opticallink.SpatialReceiverTest" time="0.001"/>
+  <system-out><![CDATA[[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=0 -> symbolIndex=0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=1 -> symbolIndex=1
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=1, i1=(1,2)=0 -> symbolIndex=2
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 0
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=0 -> symbolIndex=0
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=1 -> symbolIndex=1
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=1, i1=(1,2)=0 -> symbolIndex=2
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=0 -> symbolIndex=0
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=1 -> symbolIndex=1
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=1, i1=(1,2)=0 -> symbolIndex=2
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=0 -> symbolIndex=0
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=1 -> symbolIndex=1
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=1, i1=(1,2)=0 -> symbolIndex=2
+[SpatialGridDetector] Auto-rotation anchor snap selected rotation with max contrast: 220
+[SpatialSymbolDecoder] Header extracted: i0=(1,1)=0, i1=(1,2)=0 -> symbolIndex=0
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

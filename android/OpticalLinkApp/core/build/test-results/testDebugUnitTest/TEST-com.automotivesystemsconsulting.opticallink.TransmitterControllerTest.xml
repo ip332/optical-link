@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-10-19T15:22:46.157Z" hostname="Igors-MacBook-Pro.local" time="0.18">
+  <properties/>
+  <testcase name="stop transitions to STOPPED state and resets symbol to BLACK" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.155"/>
+  <testcase name="A0TestVector encodes exactly to 100 optical symbols" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.0"/>
+  <testcase name="bit sequence to optical symbol mapping preserves bits and order" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.001"/>
+  <testcase name="transmission advances symbols and wraps around repeating messages" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.004"/>
+  <testcase name="simulated clock jitter records late symbol count" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.004"/>
+  <testcase name="restart after stopping resumes transmission cleanly" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.006"/>
+  <testcase name="start transitions to TRANSMITTING state and initial symbol" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.002"/>
+  <testcase name="spatial grid transmission advances through 3 spatial symbols and wraps around" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.004"/>
+  <testcase name="invalid bit stream transitions to ERROR state" classname="com.automotivesystemsconsulting.opticallink.TransmitterControllerTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,9 @@
+com.automotivesystemsconsulting.opticallink.core-pngs-0 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/generated/res/pngs/debug
+com.automotivesystemsconsulting.opticallink.core-updated_navigation_xml-1 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/generated/updated_navigation_xml/debug
+com.automotivesystemsconsulting.opticallink.core-mergeDebugResources-2 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
+com.automotivesystemsconsulting.opticallink.core-mergeDebugResources-3 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
+com.automotivesystemsconsulting.opticallink.core-debug-4 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/intermediates/merged_res/debug/mergeDebugResources
+com.automotivesystemsconsulting.opticallink.core-debug-5 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/build/intermediates/packaged_res/debug/packageDebugResources
+com.automotivesystemsconsulting.opticallink.core-debug-6 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/src/debug/res
+com.automotivesystemsconsulting.opticallink.core-main-7 /Users/igorprilepov/dev/optical-link/android/OpticalLinkApp/core/src/main/res
+gradleHome-0 /Users/igorprilepov/.gradle

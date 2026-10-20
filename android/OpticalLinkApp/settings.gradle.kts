@@ -23,4 +23,6 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "OpticalLinkApp"
-include(":app")
+include(":core")
+include(":transmitter")
+include(":receiver")
